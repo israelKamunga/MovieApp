@@ -1,6 +1,7 @@
-
 import MovieCard from "../Components/MovieCard";
 import { useState } from "react";
+import { searchMovies,getPopularMovies } from "../services/api";
+import "../css/Home.css";
 
 function Home() {
 
